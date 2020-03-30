@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+		<title></title>
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+		<style>
+			html,
+			body,
+			iframe {
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0
+			}
+
+			#wrap {
+				width: 100%;
+				height: 100%;
+			}
+
+			iframe {
+				border: none;
+			}
+		</style>
+
+
+
+		<script type="text/javascript">
+			function ksname() {
+				// document.getElementById('ksnamea').contentWindow.document.getElementById('submit')
+				//	window.frames["ksnamea"].document.getElementById("submit").click();  
+
+			}
+			// document.frames['ks-name'].document.getElementById('submit');
+			//window.parent.ks();
+		</script>
+
+
+		<script type="text/javascript">
+			document.getElementById('ks-name').contentWindow.ks();
+			}
+		</script>
+		
+		
+		<script type="text/javascript">
+			function ks() {
+				alert('触发');
+			}
+		</script>
+
+	</head>
+	<body>
+		<iframe id="ks-name"  src="https://msgo.10010.com/newMsg/onLineGo/html/fill.html?sceneFlag=03&goodsId=981802085690&productName=%E5%9C%B0%E7%8E%8B%E5%8D%A1&channel=9999&p=51&c=540&u=pQ2ScncHcd0DJGQ1g3aMCA==&s=03" style="width: 100%; height: 100%;padding: 0;margin: 0;border: none;">
+		</iframe>
+
+	</body>
+</html>
